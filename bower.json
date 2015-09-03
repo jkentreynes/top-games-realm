@@ -1,0 +1,20 @@
+{
+  "name": "top-games-realm",
+  "version": "1.0.0",
+  "authors": [
+    "rank"
+  ],
+  "main": "server.js",
+  "license": "MIT",
+  "homepage": "\"https://github.com/jkentreynes/top-games-realm#readme\"",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5"
+  }
+}
