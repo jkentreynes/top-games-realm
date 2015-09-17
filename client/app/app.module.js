@@ -1,3 +1,6 @@
 ( function () {
-	angular.module( 'app', [] );
+	angular.module( 'app', [] )
+	.controller( 'ctrl', [ function () {
+
+	} ] );
 } )();

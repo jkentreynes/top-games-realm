@@ -1,0 +1,29 @@
+/* Sidebar */
+.sidebar {
+	position         : fixed;
+	top              : 50px;
+	bottom           : 0;
+	left             : 0;
+	z-index          : 1023;
+	overflow-x       : hidden;
+	overflow-y       : auto;
+	background-color : @sinet-darkgray;
+	border-right     : 1px solid @sinet-lightgray;
+	padding          : 20px;
+
+	@media ( min-width : @screen-sm-max ) {
+		display : block !important;
+	}
+}
+
+.sidebar-wrapper {
+	@media ( max-width : @screen-sm-max ) {
+		width   : auto !important;
+	}
+}
+
+.nav-sidebar {
+	width         : 200px;
+	margin-right  : -21px;
+	margin-bottom : 20px;
+}
