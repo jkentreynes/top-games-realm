@@ -1,8 +1,8 @@
-<div class="sidebar-wrapper">
+<div class="sidebar-wrapper" data-ng-controller="LeftNav as ln">
 	<ul class="nav-sidebar">
-		<li>Test</li>
-		<li>Test</li>
-		<li>Test</li>
-		<li>Test</li>
+		<li data-ng-repeat="game in ln.Games">
+			<a>{{game}}
+			</a>
+		</li>
 	</ul>
 </div>
